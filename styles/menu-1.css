@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Julee&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Julee", cursive;
+}
+
+.container {
+  background-image: url("../images/BG\ 1.png");
+  width: 840px;
+  margin: 0 auto;
+  height: 390px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-text {
+  color: #000;
+  font-family: Julee;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 40px;
+}
+.menu-text .price {
+  text-align: right;
+}
+.menu-images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  position: absolute;
+  cursor: pointer;
+}
+.arrow-top {
+  top: 0;
+  left: 100px;
+  z-index: 2;
+}
+.arrow-bottom {
+  bottom: 0;
+  right: 10px;
+  z-index: 2;
+}
+
+/* specific style for imag  */
+.left {
+  transform: scale(0.8) translateY(100px);
+  /* transform: scale(0.8) translate(360px, -70px); */
+}
+.mid {
+  transform: scale(1.3) translate(0, 0);
+  /* transform: scale(0.8) translate(-200px, 80px); */
+}
+.right {
+  transform: scale(0.8) translateY(-80px);
+}
+
+.mid-active {
+  transform: scale(0.8) translate(-180px, 80px);
+}
+
+.left-active {
+  transform: scale(0.8) translate(350px, -80px);
+}
+
+.right-active {
+  transform: scale(1.3) translate(-95px, 0px);
+}
+
+.second-left-active {
+  transform: scale(1.25) translate(100px, 10px);
+}
+
+.second-mid-active {
+  transform: scale(0.8) translate(150px, -80px);
+}
+
+.second-right-active {
+  transform: scale(0.8) translate(-300px, 90px);
+}
