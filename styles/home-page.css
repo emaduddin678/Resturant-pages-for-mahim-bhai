@@ -6,6 +6,7 @@
 
 body {
   overflow: hidden;
+  transform: rotate(90deg);
 }
 
 .container {
@@ -36,10 +37,9 @@ body {
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
-.container button a{
+.container button a {
   color: white;
   text-decoration: none;
-  
 }
 
 .container button i {
@@ -62,7 +62,7 @@ body {
   color: #282828;
   transition: all linear 0.3s;
 }
-.container button:hover i{
+.container button:hover i {
   background-color: #282828;
   transition: all linear 0.3s;
   color: #f9c514;

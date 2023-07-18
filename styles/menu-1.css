@@ -8,6 +8,7 @@
 body {
   overflow: hidden;
   font-family: "Julee", cursive;
+  transform: rotate(90deg);
 }
 
 .container {
