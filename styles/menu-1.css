@@ -8,14 +8,20 @@
 body {
   overflow: hidden;
   font-family: "Julee", cursive;
-  transform: rotate(90deg);
+  /* overflow: hidden; */
 }
 
 .container {
+  /* position: absolute;
+  transform: rotate(90deg);
+  top: 220px; */
   background-image: url("../images/BG\ 1.png");
-  width: 840px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 0 auto;
   height: 390px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -23,11 +29,7 @@ body {
 
 .menu-text {
   color: #000;
-  font-family: Julee;
   font-size: 26px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   margin-top: 40px;
 }
 .menu-text .price {

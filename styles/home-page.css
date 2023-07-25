@@ -5,15 +5,19 @@
 }
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   transform: rotate(90deg);
 }
 
 .container {
   background-image: url("../images/Home-page 1.png");
-  width: 840px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 0 auto;
+  margin-top: 250px;
   height: 390px;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
