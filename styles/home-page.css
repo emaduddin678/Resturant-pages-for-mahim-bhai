@@ -6,34 +6,43 @@
   text-decoration: none;
   border: none;
 }
-body{
+
+body {
   width: 100vw;
   height: 100vh;
-  background-color: aquamarine;
-  background-image: url("../images/Home-page 1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  background-color: #242524;
+
 }
 
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/rotateimg.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
 button{
-  /* margin-top: 50px; */
   margin-bottom: 32px;
   margin-right: 36px;
-  font-size: 10px;
-  padding: 7px 12px;
+  font-size: 12px;
+  padding: 8px 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #282828;
   gap: 7px;
-  border-radius: 10px;
+  border-radius: 9px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   transition: .3s;
+  position: absolute;
+  bottom: 7%;
+  left: 54.5%;
+  transform: translateX(-50%)  rotate(90deg);
 }
 
 button i{
@@ -50,11 +59,42 @@ button a{
 
 button:hover{
   background-color: #f3c21f;
+  
 
+}
+button:hover a{
+  color: #282828;
+  font-weight: 800;
 }
 
 button:hover i{
   background-color: #282828;
   color: #f3c21f;
 }
+@media (max-height: 885px) {
+  .container{
+    background-repeat: repeat;
+  }
+  button{
+    font-size: 10px;
+    bottom: 5%;
+  }
+}
 
+@media (max-height: 855px) {
+  button{
+    bottom: 6.5%;
+  }
+}
+
+@media (max-height: 780px) {
+  button{
+    bottom: 5%;
+  }
+}
+
+@media (max-height: 700px) {
+  button{
+    bottom: 3%;
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "editor.defaultFormatter": "bysabi.prettier-vscode-standard",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+}
