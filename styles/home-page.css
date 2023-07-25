@@ -103,14 +103,14 @@ button:hover i{
 @media (max-height: 650px) {
  
   button {
-    bottom: 2.5%;
+    bottom: 2%;
   }
 }
 
 @media (max-height: 600px) {
  
   button {
-    bottom: 1.5%;
+    bottom: 1%;
   }
 }
 
