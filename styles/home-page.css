@@ -11,7 +11,6 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #242524;
-
 }
 
 .container {
@@ -29,7 +28,7 @@ button{
   margin-bottom: 32px;
   margin-right: 36px;
   font-size: 12px;
-  padding: 8px 15px;
+  padding: 12px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,8 +59,8 @@ button a{
 button:hover{
   background-color: #f3c21f;
   
-
 }
+
 button:hover a{
   color: #282828;
   font-weight: 800;
@@ -71,11 +70,13 @@ button:hover i{
   background-color: #282828;
   color: #f3c21f;
 }
+
 @media (max-height: 885px) {
   .container{
     background-repeat: repeat;
   }
   button{
+    padding: 10px 15px;
     font-size: 10px;
     bottom: 5%;
   }
