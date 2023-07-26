@@ -39,7 +39,7 @@ button{
   cursor: pointer;
   transition: .3s;
   position: absolute;
-  bottom: 7%;
+  bottom: 6.2%;
   left: 54.5%;
   transform: translateX(-50%)  rotate(90deg);
 }
